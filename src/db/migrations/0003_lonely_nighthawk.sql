@@ -1,0 +1,1 @@
+ALTER TABLE "clients" ADD COLUMN "scopes" text[] DEFAULT ARRAY[]::text[] NOT NULL;
